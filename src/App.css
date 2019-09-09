@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.margin-top-bottom {
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.margin-top-lg {
+    margin-top: 20%;
+}
+
+.margin-top-bottom-li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.margin-right-li {
+    margin-right: 5px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.ant-layout {
+    background: none !important;
+}
+
+.overflow {
+    overflow: scroll;
+    height: 100%;
+    clear: both;
+}
+
+.fixed-height-vh {
+    height: 100vh;
+}
+
+@media screen and (max-width: 400px) {
+    .fixed-height-vh {
+        height: 60vh;
+    }
+}
